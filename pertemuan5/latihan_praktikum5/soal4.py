@@ -14,4 +14,4 @@ print(gudang_pc)
 #format:
 #Item: [Nama] | Total Aset: Rp [Hasil Perkalian]
 for x in range(len(gudang_pc)):
-    print(f'item:{gudang_pc[x]['item']} total aset:{gudang_pc[x]['harga']*gudang_pc[x]['stok']}')
+    print(f'item : {gudang_pc[x]['item']} | total aset : Rp {gudang_pc[x]['harga']*gudang_pc[x]['stok']}')

@@ -43,8 +43,6 @@ print(p1.age)
 print(p1.city)
 
 
-
-
 #HAPUS PROPERTI
 class Person:
   def __init__(self, name, age):

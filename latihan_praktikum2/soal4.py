@@ -5,7 +5,7 @@ nilai_siswa = {
     "S03": {"nama": "Sheila", "tugas": 70, "uts": 65, "uas": 70}
 }
 #Tambahkan data siswa baru: "S04" dengan nama "Fafa", nilai tugas 85, UTS 80, dan UAS 90.
-nilai_siswa['SO4'] = {
+nilai_siswa['SO4'] = {    
     'nama': 'Fafa', 'tugas': 85, 'uts': 80, 'uas': 90
 }
 print(nilai_siswa)
