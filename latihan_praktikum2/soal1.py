@@ -9,8 +9,11 @@ print(stok)
 #Urutkan list tersebut dari yang terbesar ke terkecil.
 stok.sort(reverse = True)
 print(stok)
-#Hitunglah nilai rata-rata dari seluruh stok tersebut.
+#Hitunglah nilai rata-rata dari seluruh stok tersebut. cara manual
 rata = (100+75+50+40+30+25+15)/7
 print('Rata-rata =',rata)
+#Hitunglah nilai rata-rata dari seluruh stok tersebut. cara cepat
+rata_rata = sum(stok)/len(stok)
+print('Rata-rata =',rata_rata)
 #Tampilkan isi list setelah semua perubahan dilakukan.
 print(stok,'Rata-rata =',rata)
