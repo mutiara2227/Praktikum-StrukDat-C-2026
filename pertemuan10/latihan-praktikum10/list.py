@@ -17,4 +17,3 @@ isEmpty = not bool(riwayat)
 print('Riwayat kosong(True)/tidak(False): ', isEmpty)
 
 print('Total URL: ', len(riwayat))
-
